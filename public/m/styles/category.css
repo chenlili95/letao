@@ -1,0 +1,67 @@
+.my-content {
+    position: absolute;
+    left: 0;
+    top: 44px;
+    bottom: 50px;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+.my-content .category-left {
+    float: left;
+    width: 80px;
+    position: relative;
+    height: 100%;
+}
+
+.my-content .category-right {
+    margin-left: 90px;
+    position: relative;
+    height: 100%;
+}
+
+.my-content .category-left .links a {
+    display: block;
+    background-color: #fff;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.my-content .category-left .links .active {
+    border-right: 1px solid transparent;
+    background-color: #e0e0e0;
+}
+
+.my-content .category-right .brand-list {
+    background-color: #fff;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.my-content .category-right .brand-list li {
+    float: left;
+    width: 33.333%;
+}
+
+.my-content .category-right .brand-list a {
+    width: 100%;
+}
+
+.my-content .category-right .brand-list li img {
+    width: 100%;
+}
+
+.my-content .category-right .brand-list li p {
+    text-align: center;
+}
+
+.noresult {
+    padding: 5px;
+    font-size: 16px;
+    color: #006699;
+}

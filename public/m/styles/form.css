@@ -1,0 +1,13 @@
+.getCode {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #006699;
+}
+
+.login-now {
+    display: block;
+    margin: 10px;
+    text-align: right;
+}
